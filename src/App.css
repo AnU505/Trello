@@ -66,9 +66,9 @@ main {
 .section {
   width: 60%;
   margin: 0 auto;
-  padding: 100px 0px;
+  padding: 50px 0px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(19rem, auto));  
 }
 .img1 {
@@ -101,6 +101,9 @@ main {
   .left {
     grid-column: 2/1;
     grid-row: 2/1;
+  }
+  .img1 {
+    width: 80%;
   }
 }
 

@@ -1,8 +1,9 @@
 import React from "react";
+import List from "../ReusableComponents/List";
 
 function ImageAndText(props) {
   for (const d in props.data) {
-    if (Array.isArray(props.data[d])) {
+    if (Array.isArray(props.data[d]) && d !== 'list') {
       props.data[d] = props.data[d].join(" ");
     }
   }
@@ -30,6 +31,7 @@ function ImageAndText(props) {
             }
           >
             {props.data.p}
+            {props.data.list !== null ? <List data={props.data}></List> : ''}
           </p>
         </div>
         {props.data.source !== null ? (

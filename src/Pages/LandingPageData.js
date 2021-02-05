@@ -40,7 +40,11 @@ const data = [
     p:'Delegate tasks to robots! If you want to increase the productivity of your team, automate workflows with the Butler enhancement, and our powerful tools can handle the repetitive work:',
     sectionClass: ['p-intro', 'paddingLeft'],
     source:img4,
-    imgClass:['img1', 'left']
+    imgClass:['img1', 'left'],
+    list:['Rule-based triggers',
+      'Customizable buttons for creating cards and boards',
+      'Calendar commands',
+      'Commands by due date']
   }
 ];
 export default data;
