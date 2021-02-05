@@ -1,0 +1,187 @@
+a {
+  text-decoration: none;
+  color: #0079bf;
+}
+.paddingLeft {
+  padding-left: 10%;
+}
+
+.App-logo {
+  width: 130px;
+  height: 50px;
+}
+.trellopng {
+  width: 130px;
+  height: 38px;
+  position: absolute;
+  top: 40px;
+  left: 42%;
+}
+.App-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0079bf;
+  color: white;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+.shadow {
+  box-shadow: -3px 8px 11px -8px rgb(53, 95, 121);
+}
+
+.sign {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  padding: 5px;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+
+#signin {
+  padding: 15px;
+}
+
+#signupBtn {
+  display: block;
+  text-align: center;
+  width: 70px;
+  height: 20px;
+  padding: 7px;
+  margin: 10px;
+  color: #0079bf;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* landingpage */
+main {
+  width: 100%;
+ 
+}
+
+.section {
+  width: 60%;
+  margin: 0 auto;
+  padding: 100px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(19rem, auto));  
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+  margin-right: 10%;
+}
+.info {
+  margin-top: 10%;
+  width: auto;
+  padding-right: 10%;
+  /* background-color: red; */
+}
+.blue {
+  background-color: #0079bf;
+  padding: 5% 20%;
+}
+.white {
+  color: white;
+}
+
+@media screen and (max-width:916px)  {
+  .section {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
+@media  (min-width:916px)  {
+ 
+  .left {
+    grid-column: 2/1;
+    grid-row: 2/1;
+  }
+}
+
+.signupMain {
+  width: 100%;
+  height: 100vh;
+  background-color: #f9fafc;
+}
+
+#signupForm {
+  width: 350px;
+  height: 500px;
+  padding: 10px 40px;
+  /* padding-top: 50px; */
+  text-align: center;
+  position: relative;
+  top: 130px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 5px 12px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 1px 5px 12px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 1px 5px 12px 0px rgba(158, 159, 160, 0.2);
+}
+#signupForm input {
+  width: 300px;
+  height: 30px;
+  padding: 3px;
+  border: 1.5px solid #dfe1e6;
+  background-color: #fafbfc;
+}
+#signupForm input[type="submit"] {
+  background-color: #e2e4e6;
+  font-weight: 700;
+  color: #8c8c8c;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 310px;
+}
+#signupForm h1 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: #727d91;
+  text-align: center;
+  display: inline-block;
+}
+#signupForm p {
+  width: 300px;
+  color: #6f7b91;
+  font-size: 12px;
+  text-align: start;
+  padding-left: 20px;
+}
+.signupIllustrations {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.signupimg {
+  width: 500px;
+  height: 300px;
+}
+.signupwithcontainer {
+  width: 260px;
+  height: 40px;
+  -webkit-box-shadow: 4px 5px 4px -1px rgba(34, 60, 80, 0.16);
+  -moz-box-shadow: 4px 5px 4px -1px rgba(34, 60, 80, 0.16);
+  box-shadow: 4px 5px 4px -1px rgba(34, 60, 80, 0.16);
+  margin: 20px 30px 0px 20px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.signupwithcontainer p {
+  font-weight: 800;
+  padding-left: 10px;
+}
+.signupwithicon {
+  width: 19px;
+  height: 22px;
+  margin: 5px;
+}
